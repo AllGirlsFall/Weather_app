@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(
+    360deg,
+    rgb(255, 255, 255) 0%,
+    rgb(91, 110, 217) 100%
+  );
+
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 2.5em;
+}
+
+.input_form {
+  text-align: right;
+  position: relative;
+  right: 30px;
+  bottom: 55px;
+}
+
+.location_input {
+  line-height: 1.75em;
+  border-style: none;
+  border-radius: 7px;
+}
+
+.searchBtn {
+  padding: 7px 9px;
+  border-radius: 7px;
+}
+
+.current {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+
+.current h2 {
+  font-size: 2em;
+}
+
+.fiveDay {
+  position: relative;
+  top: 75px;
+}
+
+.fiveDay h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  border-style: solid;
+  max-width: 78px;
+  padding: 20px;
+  margin: 55px;
+  float: left;
+}
+
+li {
+  font-size: 1.5em;
+  text-align: center;
+}

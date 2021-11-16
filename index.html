@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="src/styles.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <h1>Weather</h1>
+
+    <form class="input_form" id="city-search">
+      <input
+        type="text"
+        placeholder="Search for a city"
+        autocomplete="off"
+        autofocus="on"
+        class="location_input"
+        id="search-input"
+      />
+
+      <input type="submit" value="Search" class="searchBtn" id="search-btn" />
+      <input
+        type="submit"
+        value="Current City"
+        class="searchBtn"
+        id="current-btn"
+      />
+    </form>
+
+    <div class="current">
+      <h2 id="display">Current City</h2>
+      <p id="temperature">71°🌥</p>
+      <p class="showtime" id="time">time</p>
+    </div>
+
+    <div>
+      <div class="fiveDay">
+        <h2>5 Day Forecast</h2>
+
+        <div>
+          <ul>
+            <li>Mon</li>
+            <li>65°</li>
+            <li>☀️</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li>Tue</li>
+            <li>65°</li>
+            <li>☀️</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li>Wed</li>
+            <li>65°</li>
+            <li>☀️</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li>Thur</li>
+            <li>65°</li>
+            <li>☀️</li>
+          </ul>
+        </div>
+
+        <ul>
+          <li>Fri</li>
+          <li>65°</li>
+          <li>☀️</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
